@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body {
+    background: rgb(4, 68, 116);
+    background: linear-gradient(
+      90deg,
+      rgb(5, 29, 47) 0%,
+      rgb(122, 135, 148) 54%,
+      rgb(4, 26, 43) 82%
+    );
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Oswald", sans-serif;
+  }
+
+  .titlep {
+    color: rgb(226, 220, 220);
+    text-align: center;
+    margin:5px
+  }
+
+  .container-legends { /*caja padre*/
+    display: grid;
+    background-color: rgb(17, 17, 18);
+    grid-template-columns: 1fr 1fr 1fr;/*los pone en colummna de 3*/
+    gap: 30px;/*sepra las cajas blancas*/
+    width: 90%;
+    height: 800px; ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-top: 20px;
+  }
+  
+  .legends-block{/*caja blanca*/
+    border-radius: 10px;
+    margin-bottom: 15px;
+    margin-top: 25px;
+    margin-left: 40px;
+    width: 70%;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+  }
+
+ /* .img-container {/*caja del blobs => no lo utilice =)
+    background-image: url("./blob.svg");/*lo saco de la pagina blobs
+    background-repeat: no-repeat;
+    background-position: center;
+
+  }*/
+
+  .img9 {
+width: 200px;
+ margin: auto;
+ margin-top: 20px;
+ display: block;
+ border-radius: 2px;
+
+}
+
+  
+  .legends-block p {/*textos*/
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .name {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+    .title {
+    color: rgb(29, 1, 1);
+    text-align: center;
+    margin-bottom: 2px;
+  }
